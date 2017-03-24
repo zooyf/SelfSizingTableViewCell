@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="134" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NxO-MS-m3u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="kSSTableviewCellID" rowHeight="134" id="QyZ-hz-vXq">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="134"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="QyZ-hz-vXq" id="uDd-WJ-4Lc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="133"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKV-xt-kBt">
+                                                    <rect key="frame" x="42" y="20" width="240" height="128"/>
+                                                    <color key="backgroundColor" red="0.96862745100000003" green="0.3803921569" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="400" id="OwE-Tj-maT"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="JKV-xt-kBt" secondAttribute="bottom" id="8SR-Xp-yGl"/>
+                                                <constraint firstItem="JKV-xt-kBt" firstAttribute="leading" secondItem="uDd-WJ-4Lc" secondAttribute="leading" id="S21-6L-ORJ"/>
+                                                <constraint firstItem="JKV-xt-kBt" firstAttribute="top" secondItem="uDd-WJ-4Lc" secondAttribute="top" id="mcv-Iv-Ocd"/>
+                                                <constraint firstAttribute="trailing" secondItem="JKV-xt-kBt" secondAttribute="trailing" id="oBI-W4-otC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="0kq-er-46T"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="u8g-hv-yEV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NxO-MS-m3u" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LEW-do-hg3"/>
+                            <constraint firstAttribute="bottom" secondItem="NxO-MS-m3u" secondAttribute="bottom" id="Wlj-Um-zPk"/>
+                            <constraint firstAttribute="trailing" secondItem="NxO-MS-m3u" secondAttribute="trailing" id="dTJ-gz-rr5"/>
+                            <constraint firstItem="NxO-MS-m3u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xUa-Se-dyd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="NxO-MS-m3u" id="CxQ-ev-2nQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>

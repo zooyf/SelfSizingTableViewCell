@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468A52E41E83C14000BAF019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A52E31E83C14000BAF019 /* main.m */; };
+		468A52E71E83C14000BAF019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A52E61E83C14000BAF019 /* AppDelegate.m */; };
+		468A52EA1E83C14000BAF019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A52E91E83C14000BAF019 /* ViewController.m */; };
+		468A52ED1E83C14000BAF019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468A52EB1E83C14000BAF019 /* Main.storyboard */; };
+		468A52EF1E83C14000BAF019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468A52EE1E83C14000BAF019 /* Assets.xcassets */; };
+		468A52F21E83C14000BAF019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468A52F01E83C14000BAF019 /* LaunchScreen.storyboard */; };
+		468A52FB1E83C45900BAF019 /* SSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 468A52FA1E83C45900BAF019 /* SSTableViewCell.m */; };
+		C67B3A12DEFFC945B3476472 /* libPods-SelfSizingTableViewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A8165C550A61004B532DA6 /* libPods-SelfSizingTableViewCell.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ED1CA12B7104A926999FF74 /* Pods-SelfSizingTableViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSizingTableViewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSizingTableViewCell/Pods-SelfSizingTableViewCell.release.xcconfig"; sourceTree = "<group>"; };
+		3BF6340F07A303A15101F3D2 /* Pods-SelfSizingTableViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSizingTableViewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSizingTableViewCell/Pods-SelfSizingTableViewCell.debug.xcconfig"; sourceTree = "<group>"; };
+		468A52DF1E83C14000BAF019 /* SelfSizingTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		468A52E31E83C14000BAF019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		468A52E51E83C14000BAF019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		468A52E61E83C14000BAF019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		468A52E81E83C14000BAF019 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		468A52E91E83C14000BAF019 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		468A52EC1E83C14000BAF019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		468A52EE1E83C14000BAF019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468A52F11E83C14000BAF019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		468A52F31E83C14000BAF019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468A52F91E83C45900BAF019 /* SSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTableViewCell.h; sourceTree = "<group>"; };
+		468A52FA1E83C45900BAF019 /* SSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTableViewCell.m; sourceTree = "<group>"; };
+		54A8165C550A61004B532DA6 /* libPods-SelfSizingTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfSizingTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468A52DC1E83C14000BAF019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67B3A12DEFFC945B3476472 /* libPods-SelfSizingTableViewCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468A52D61E83C14000BAF019 = {
+			isa = PBXGroup;
+			children = (
+				468A52E11E83C14000BAF019 /* SelfSizingTableViewCell */,
+				468A52E01E83C14000BAF019 /* Products */,
+				6C5124074DEBF16E7C1B7FAB /* Pods */,
+				73D4CCA874BE12EEC3504B5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		468A52E01E83C14000BAF019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468A52DF1E83C14000BAF019 /* SelfSizingTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468A52E11E83C14000BAF019 /* SelfSizingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				468A52E51E83C14000BAF019 /* AppDelegate.h */,
+				468A52E61E83C14000BAF019 /* AppDelegate.m */,
+				468A52E81E83C14000BAF019 /* ViewController.h */,
+				468A52E91E83C14000BAF019 /* ViewController.m */,
+				468A52F91E83C45900BAF019 /* SSTableViewCell.h */,
+				468A52FA1E83C45900BAF019 /* SSTableViewCell.m */,
+				468A52EB1E83C14000BAF019 /* Main.storyboard */,
+				468A52EE1E83C14000BAF019 /* Assets.xcassets */,
+				468A52F01E83C14000BAF019 /* LaunchScreen.storyboard */,
+				468A52F31E83C14000BAF019 /* Info.plist */,
+				468A52E21E83C14000BAF019 /* Supporting Files */,
+			);
+			path = SelfSizingTableViewCell;
+			sourceTree = "<group>";
+		};
+		468A52E21E83C14000BAF019 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468A52E31E83C14000BAF019 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C5124074DEBF16E7C1B7FAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF6340F07A303A15101F3D2 /* Pods-SelfSizingTableViewCell.debug.xcconfig */,
+				2ED1CA12B7104A926999FF74 /* Pods-SelfSizingTableViewCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73D4CCA874BE12EEC3504B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54A8165C550A61004B532DA6 /* libPods-SelfSizingTableViewCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468A52DE1E83C14000BAF019 /* SelfSizingTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468A52F61E83C14000BAF019 /* Build configuration list for PBXNativeTarget "SelfSizingTableViewCell" */;
+			buildPhases = (
+				A89B06CB72953B869C39F09F /* [CP] Check Pods Manifest.lock */,
+				468A52DB1E83C14000BAF019 /* Sources */,
+				468A52DC1E83C14000BAF019 /* Frameworks */,
+				468A52DD1E83C14000BAF019 /* Resources */,
+				3834B77647F42E22FF2C04CE /* [CP] Embed Pods Frameworks */,
+				65D8D30FE0C510652D3D2678 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSizingTableViewCell;
+			productName = SelfSizingTableViewCell;
+			productReference = 468A52DF1E83C14000BAF019 /* SelfSizingTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468A52D71E83C14000BAF019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JasonYu;
+				TargetAttributes = {
+					468A52DE1E83C14000BAF019 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 468A52DA1E83C14000BAF019 /* Build configuration list for PBXProject "SelfSizingTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 468A52D61E83C14000BAF019;
+			productRefGroup = 468A52E01E83C14000BAF019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468A52DE1E83C14000BAF019 /* SelfSizingTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468A52DD1E83C14000BAF019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468A52F21E83C14000BAF019 /* LaunchScreen.storyboard in Resources */,
+				468A52EF1E83C14000BAF019 /* Assets.xcassets in Resources */,
+				468A52ED1E83C14000BAF019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3834B77647F42E22FF2C04CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSizingTableViewCell/Pods-SelfSizingTableViewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D8D30FE0C510652D3D2678 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSizingTableViewCell/Pods-SelfSizingTableViewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89B06CB72953B869C39F09F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468A52DB1E83C14000BAF019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468A52EA1E83C14000BAF019 /* ViewController.m in Sources */,
+				468A52FB1E83C45900BAF019 /* SSTableViewCell.m in Sources */,
+				468A52E71E83C14000BAF019 /* AppDelegate.m in Sources */,
+				468A52E41E83C14000BAF019 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		468A52EB1E83C14000BAF019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468A52EC1E83C14000BAF019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		468A52F01E83C14000BAF019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468A52F11E83C14000BAF019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468A52F41E83C14000BAF019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		468A52F51E83C14000BAF019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468A52F71E83C14000BAF019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF6340F07A303A15101F3D2 /* Pods-SelfSizingTableViewCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSizingTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonYu.SelfSizingTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		468A52F81E83C14000BAF019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED1CA12B7104A926999FF74 /* Pods-SelfSizingTableViewCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SelfSizingTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JasonYu.SelfSizingTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468A52DA1E83C14000BAF019 /* Build configuration list for PBXProject "SelfSizingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468A52F41E83C14000BAF019 /* Debug */,
+				468A52F51E83C14000BAF019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468A52F61E83C14000BAF019 /* Build configuration list for PBXNativeTarget "SelfSizingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468A52F71E83C14000BAF019 /* Debug */,
+				468A52F81E83C14000BAF019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468A52D71E83C14000BAF019 /* Project object */;
+}
